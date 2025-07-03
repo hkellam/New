@@ -45,7 +45,7 @@ if st.button("Start Chat"):
     thread = client.beta.threads.create()
     st.session_state.thread_id = thread.id
 
-st.title("New-bot")
+st.title("TCUbot")
 st.image("TCU logo.png")
 st.write("How can I help you with using AI for teaching your students?")
 # st.write("Ask me things like:")

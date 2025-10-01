@@ -36,7 +36,7 @@ if "start_chat" not in st.session_state:
 if "thread_id" not in st.session_state:
     st.session_state.thread_id = None
 
-st.set_page_config(page_title="TCU ChatBot", page_icon=":books:")
+st.set_page_config(page_title="EDU 4104 ChatBot", page_icon=":books:")
 #st.set_page_config(page_title="Study Buddy", page_icon=":books:")
 
 
@@ -46,7 +46,7 @@ if st.button("Start Chat"):
     st.session_state.thread_id = thread.id
 
 st.title("TCUbot")
-st.image("TCU logo.png")
+st.image("Jay Chatbot Image.jpg")
 st.write("How can I help you with using AI for teaching your students?")
 # st.write("Ask me things like:")
 # st.write(":blue[**Explain Module 1 Quiz 2 question 3**] OR :blue[**Help solve module 3 Quiz 1 question 3**] OR :blue[**copy-paste the question after clicking Start Chat**]")
